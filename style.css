@@ -117,7 +117,7 @@ hr.bar{
     height: 50vh; 
     width: 70vw;
     position: absolute;
-    top: 300vh;
+    top: 120vw;
 }
 
 .topBar{
@@ -162,13 +162,21 @@ hr.bar{
 .factsSubBox{
     width: 40vw;
     overflow: hidden;
-    text-align: center;
+    text-align: left;
 }
 
 .greenhouseImage{
     width: 20vw;
     position: absolute;
     top: 5vw;
+    left: 90%;
+    transform: translate(-90%);
+}
+
+.oceanImage{
+    width: 20vw;
+    position: absolute;
+    top: 23vw;
     left: 90%;
     transform: translate(-90%);
 }
