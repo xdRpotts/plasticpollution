@@ -15,6 +15,17 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
     scroll-behavior: smooth;
+    background-color: rgba(211, 211, 211, 0.76);
+}
+
+.imgBorder{
+    border: 5px solid rgba(97, 184, 71, 0.816);
+    border-radius: 1%;
+}
+
+.section{
+    border: 5px solid rgba(97, 184, 71, 0.816);
+    border-radius: 1%;
 }
 
 a, a:hover, a:focus, a:active {
@@ -26,7 +37,7 @@ a, a:hover, a:focus, a:active {
 .leftBar{
     height: 100vh;
     width: 18%;
-    background-color: rgba(39, 39, 39, 0.932);
+    background-color: rgba(97, 184, 71, 0.816);
     position: fixed;
     top: 0px;
     left: 0px;
@@ -35,7 +46,7 @@ a, a:hover, a:focus, a:active {
 }
 
 hr.bar{
-    border: 0.1px solid rgba(168, 168, 168, 0.315);
+    border: 0.1px solid rgba(109, 109, 109, 0.753);
     width: 92%;
     position: absolute;
     top:10vw;
@@ -44,14 +55,49 @@ hr.bar{
 }
 
 .barTitle{
+    font-size: 3.5vw;
     position: absolute;
-    top:1vw;
-    font-size: 2.5vw;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    color: rgba(221, 221, 221, 0.849);
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke: 1px;
+}
+
+.titleHeading{
+    font-size: 1.5vw;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    color: rgba(221, 221, 221, 0.849);
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke: 1px;
+}
+
+.barQuoteOne{
+    width: 25vw;
+    font-size: 1.5vw;
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgba(168, 168, 168, 0.671);
+    left: 25%;
+    transform: translate(-75%, -50%);
+    color: rgba(221, 221, 221, 0.849);
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke: 1px;
+}
+
+.barQuoteTwo{
+    width: 25vw;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-25%, -50%);
+    color: rgba(221, 221, 221, 0.849);
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke: 1px;
 }
 
 .links{
@@ -65,18 +111,19 @@ hr.bar{
     top: 13vw;
     inline-size: 75%;
     overflow-wrap: break-word;
-    color: rgba(168, 168, 168, 0.671);
+    color: rgba(221, 221, 221, 0.849);
     padding: 5px;
 }
 
 .textBorder{
-    border-left: 0.18vw solid rgba(168, 168, 168, 0.315);
+    border-left: 0.18vw solid rgba(109, 109, 109, 0.753);
     height: 10%;
     padding: 5px;
 }
 
 .mainTextPosition{
     position: absolute;
+    top: 8vw;
     left: 20%;
     height: 100vh;
 }
@@ -124,11 +171,13 @@ hr.bar{
     position: absolute;
     top: 0%;
     left: 18%;
-    height: 5vw;
+    height: 13vw;
     width: 81.9%;
-    background-color: rgba(39, 39, 39, 0.932);
+    background-image: url("image/bar-image.jpg");
+    background-size: 100vw;
     opacity: 100%;
-    border-left: 0.3px solid rgba(168, 168, 168, 0.315);
+    border-left: 0.07vw solid rgba(109, 109, 109, 0.753);
+    border-bottom: 0.07vw solid rgba(109, 109, 109, 0.753);
     font-weight: 550;
     z-index: 99;
 }
@@ -139,6 +188,7 @@ hr.bar{
     top:1.5vw;
     left: 50%;
     transform: translate(-50%);
+    background-image: url("image/recyclelogo.png");
 }
 
 
