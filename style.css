@@ -60,9 +60,7 @@ hr.bar{
     top: 40%;
     left: 50%;
     transform: translate(-50%, -60%);
-    color: rgba(221, 221, 221, 0.849);
-    -webkit-text-fill-color: black;
-    -webkit-text-stroke: 1px;
+    color: rgba(221, 221, 221);
 }
 
 .titleHeading{
@@ -71,9 +69,7 @@ hr.bar{
     top: 60%;
     left: 50%;
     transform: translate(-50%, -40%);
-    color: rgba(221, 221, 221, 0.849);
-    -webkit-text-fill-color: black;
-    -webkit-text-stroke: 1px;
+    color: rgba(221, 221, 221);
 }
 
 .barQuoteOne{
@@ -83,9 +79,7 @@ hr.bar{
     top: 50%;
     left: 25%;
     transform: translate(-75%, -50%);
-    color: rgba(221, 221, 221, 0.849);
-    -webkit-text-fill-color: black;
-    -webkit-text-stroke: 1px;
+    color: rgba(221, 221, 221);
 }
 
 .barQuoteTwo{
@@ -95,9 +89,7 @@ hr.bar{
     top: 50%;
     left: 75%;
     transform: translate(-25%, -50%);
-    color: rgba(221, 221, 221, 0.849);
-    -webkit-text-fill-color: black;
-    -webkit-text-stroke: 1px;
+    color: rgba(221, 221, 221);
 }
 
 .links{
@@ -179,7 +171,6 @@ hr.bar{
     border-left: 0.07vw solid rgba(109, 109, 109, 0.753);
     border-bottom: 0.07vw solid rgba(109, 109, 109, 0.753);
     font-weight: 550;
-    z-index: 99;
 }
 
 .logo{
@@ -188,7 +179,6 @@ hr.bar{
     top:1.5vw;
     left: 50%;
     transform: translate(-50%);
-    background-image: url("image/recyclelogo.png");
 }
 
 
